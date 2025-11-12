@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      const user = { username,email, password };
+      const user = { fullname, email, password };
       localStorage.setItem("registeredUser", JSON.stringify(user));
 
       if (message) {
