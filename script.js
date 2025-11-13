@@ -75,13 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
-    // Display greeting on home.html
-    const greeting=document.getElementById("greeting");
-    const currentUser=JSON.parse(localStorage.getItem("currentUser"));
-    if(currentUser && greeting){
-        greeting.textContent=`Hello, ${currentUser.fullname}!`;
-    }
-});
+    //slide
 
 const images = document.querySelector('.images');
 if (images) {
@@ -118,3 +112,4 @@ const logout=document.getElementById("logout");
     window.location.href="index.html";
   });
  };
+});
